@@ -1,0 +1,69 @@
+body {
+    background-color: grey;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.color-box1 {
+    background-color: red;
+    height: 130px; 
+    width: 180px; 
+}
+
+.color-box2 {
+    background-color: blue;
+    height: 130px; 
+    width: 180px; 
+}
+
+.color-box3 {
+    background-color: green;
+    height: 130px; 
+    width: 180px; 
+}
+
+.bottom-row {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 130px; 
+    width: 520px; 
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.name {
+    font-size: 40px;
+}
+
+.hexes {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.hex1 {
+    font-size: 30px;
+    color: grey
+}
+
+.hex2 {
+    font-size: 30px;
+    color: grey
+}
+
+.hex3 {
+    font-size: 30px;
+    color: grey;
+}
+
+
